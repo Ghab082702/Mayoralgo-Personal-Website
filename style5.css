@@ -1,0 +1,298 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+h2{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 8px;
+}
+
+body ,html {
+   height: 100%;
+   margin: 0;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.8em;
+   color: #666;
+}
+
+.img1{
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img2 {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.img3 {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img4 {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img5 {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1{
+    background-image: url("images/ghab2.jpg");
+    min-height: 100%;
+}
+
+.img2{
+    background-image: url("images/house.jpg");
+    min-height: 400px;
+}
+
+.img3{
+    background-image: url("images/phone.jpg");
+    min-height: 400px;
+}
+
+.img4{
+    background-image: url("images/gmail.jpg");
+    min-height: 400px;
+}
+
+.img5{
+    background-image: url("images/people.jpg");
+    min-height: 400px;
+}
+
+.text1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+
+.text1 .border{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 120px;
+    color: white;
+    padding: 20px;
+}
+
+
+.text2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+
+.text2 .border{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    color: black;
+    padding: 30px;
+}
+
+
+.text3{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+
+.text3 .border{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 120px;
+    color: white;
+    padding: 20px;
+}
+
+
+.text4{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+
+.text4 .border{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 120px;
+    color: black;
+    padding: 20px;
+}
+
+
+.text5{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+
+.text5 .border{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 120px;
+    color: black;
+    padding: 20px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: rgb(0, 0, 0);
+}
+
+
+.section-dark{
+    background-color: rgb(0, 0, 0);
+    color: #ddd;
+}
+
+
+
+nav {
+    background: rgb(0, 0, 0);
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    letter-spacing: 3px;
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover {
+    background: rgb(87, 77, 77);
+    transition: .5;
+}
+
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=email], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+  input[type=submit] {
+    background-color: #4641417c; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  

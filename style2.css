@@ -1,0 +1,193 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+h2{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 8px;
+}
+
+body ,html {
+   height: 100%;
+   margin: 0;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.8em;
+   color: #666;
+}
+
+.img1{
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img2 {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.img3 {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1{
+    background-image: url("images/pasig.png");
+    min-height: 100%;
+}
+
+.img2{
+    background-image: url("images/coding.png");
+    min-height: 400px;
+}
+
+.img3{
+    background-image: url("images/garden.jpg");
+    min-height: 400px;
+}
+.text1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+
+.text1 .border{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 125px;
+    color: white;
+    padding: 20px;
+}
+
+
+.text2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+
+.text2 .border{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    color: black;
+    padding: 30px;
+}
+
+
+.text3{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+
+.text3 .border{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    color: white;
+    padding: 20px;
+}
+
+
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: rgb(0, 0, 0);
+}
+
+
+.section-dark{
+    background-color: rgb(0, 0, 0);
+    color: #ddd;
+}
+
+
+
+nav {
+    background: rgb(0, 0, 0);
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    letter-spacing: 3px;
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover {
+    background: rgb(87, 77, 77);
+    transition: .5;
+}
+
+
+
